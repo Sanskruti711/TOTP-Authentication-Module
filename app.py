@@ -3,7 +3,7 @@ TOTP-based Authentication Module
 ---------------------------------
 Implements a full signup -> QR enrollment -> verified login flow using
 Time-based One-Time Passwords (RFC 6238), on top of a normal
-username/password first factor.
+username/password firstpy -3.13 -m pip install -r requirements.txt factor.
 
 Flow:
 1. /register   -> user picks username + password (hashed with PBKDF2)
@@ -291,4 +291,5 @@ def logout():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    import os
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
