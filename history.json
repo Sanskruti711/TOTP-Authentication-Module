@@ -1,0 +1,58 @@
+[
+  {
+    "username": "sanskruti",
+    "event": "Account Registered",
+    "status": "info",
+    "time": "2026-09-22T10:11:20+00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "username": "sanskruti",
+    "event": "Two-Factor Authentication Enabled",
+    "status": "success",
+    "time": "2026-09-22T10:12:02+00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "username": "sanskruti",
+    "event": "Login Successful",
+    "status": "success",
+    "time": "2026-09-22T10:12:25+00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "username": "abcd",
+    "event": "Account Registered",
+    "status": "info",
+    "time": "2026-09-22T12:25:49+00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "username": "abcd",
+    "event": "2FA Enrollment - Invalid Code",
+    "status": "failed",
+    "time": "2026-09-22T12:27:11+00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "username": "abcd",
+    "event": "Two-Factor Authentication Enabled",
+    "status": "success",
+    "time": "2026-09-22T12:27:31+00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "username": "abcd",
+    "event": "Login Attempt - Wrong Password",
+    "status": "failed",
+    "time": "2026-09-22T12:28:08+00:00",
+    "ip": "127.0.0.1"
+  },
+  {
+    "username": "abcd",
+    "event": "Login Attempt - Wrong Password",
+    "status": "failed",
+    "time": "2026-09-22T12:28:17+00:00",
+    "ip": "127.0.0.1"
+  }
+]
